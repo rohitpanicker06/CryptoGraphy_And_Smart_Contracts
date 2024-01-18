@@ -22,7 +22,7 @@ fn main() {
         if hashed_value.iter().any(|&byte| byte == 0x2F) {
             println!("hash containing 0x2F (47): {:?}", hashed_value);
             let x_hex = hex::encode(byte_array_for_holding_x);
-            println!("x (hash-encoded): {}", x_hex);
+            println!("Answer : -> x in hex (hash-encoded): {}", x_hex);
             break;
         }
     }
